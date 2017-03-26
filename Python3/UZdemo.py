@@ -26,7 +26,7 @@ registe_names=["NOP",
 
 
 
-UZ0 = UZ(device = 1, port = 0, SPIspeed = 4000000)
+UZ0 = UZ(device = 0, port = 0)
 
 #UZ0.spi_init(1,2,10000000,0b10)
 UZ0.GPIO_Write_CR([0,2])
